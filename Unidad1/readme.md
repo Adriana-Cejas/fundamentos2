@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOlkw/13vk7tYoR01P8aGLr",
+      "authorship_tag": "ABX9TyPue9FegVi/hykWJpRwvErT",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -132,6 +132,18 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "id": "QM2hmkFomT8q"
+      },
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "code",
